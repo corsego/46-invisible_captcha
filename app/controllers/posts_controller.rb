@@ -1,5 +1,6 @@
 class PostsController < ApplicationController
   before_action :set_post, only: %i[ show edit update destroy ]
+  invisible_captcha only: [:create, :update]
 
   def index
     @posts = Post.order(created_at: :desc)

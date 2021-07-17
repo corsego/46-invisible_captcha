@@ -93,6 +93,8 @@ GEM
       activesupport (>= 4.2.0)
     i18n (1.8.10)
       concurrent-ruby (~> 1.0)
+    invisible_captcha (2.0.0)
+      rails (>= 5.0)
     jbuilder (2.11.2)
       activesupport (>= 5.0.0)
     listen (3.5.1)
@@ -220,6 +222,7 @@ DEPENDENCIES
   capybara (>= 3.26)
   devise
   faker
+  invisible_captcha
   jbuilder (~> 2.7)
   listen (~> 3.3)
   pg (~> 1.1)
